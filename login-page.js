@@ -15,7 +15,10 @@ loginButton.addEventListener("click", (e) => {
         location.href = "home.html", "_self";
     } else if (username === "RWhiting" && password === "HPR7GK5dnu" ) {
         alert("You have successfully logged in.");
-        location.href = "home.html", "_self";  
+        location.href = "home.html", "_self";
+    }  else if (username === "NRussell" && password === "Russell2004" ) {
+            alert("You have successfully logged in.");
+            location.href = "home.html", "_self"; 
     } else {
         loginErrorMsg.style.opacity = 1;
     }
